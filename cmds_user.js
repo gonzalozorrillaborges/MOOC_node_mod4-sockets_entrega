@@ -3,26 +3,26 @@ const {User, Quiz} = require("./model.js").models;
 
 exports.help = (rl) => 
   rl.log(
-    `  Commands (params are requested after):
-    > h              ## show help
-    >
-    > lu | ul | u    ## users: list all
-    > cu | uc        ## user: create
-    > ru | ur | r    ## user: read (show age)
-    > uu             ## user: update
-    > du | ud        ## user: delete
-    >
-    > lq | ql | q    ## quizzes: list all
-    > cq | qc        ## quiz: create
-    > tq | qt | t    ## quiz: test (play)
-    > uq | qu        ## quiz: update
-    > dq | qd        ## quiz: delete
-    >
-    > lf | fl | f    ## favourites: list all
-    > cf | fc        ## favourite: create
-    > df | fd        ## favourite: delete
-    >
-    > e              ## exit & return to shell`
+    `  Commands (params are requested after):\r
+    > h              ## show help\r
+    >\r
+    > lu | ul | u    ## users: list all\r
+    > cu | uc        ## user: create\r
+    > ru | ur | r    ## user: read (show age)\r
+    > uu             ## user: update\r
+    > du | ud        ## user: delete\r
+    >\r
+    > lq | ql | q    ## quizzes: list all\r
+    > cq | qc        ## quiz: create\r
+    > tq | qt | t    ## quiz: test (play)\r
+    > uq | qu        ## quiz: update\r
+    > dq | qd        ## quiz: delete\r
+    >\r
+    > lf | fl | f    ## favourites: list all\r
+    > cf | fc        ## favourite: create\r
+    > df | fd        ## favourite: delete\r
+    >\r
+    > e              ## exit & return to shell\n\r`
   )
 
 // Show all users in DB
